@@ -1,7 +1,0 @@
----
-id: LICENSE
-aliases: []
-tags: []
----
-
-
