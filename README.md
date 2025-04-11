@@ -11,4 +11,19 @@ The main core uses:
 - and [spacy](https://spacy.io/usage/spacy-101)
 to gather and parse the book data.
 
+## Setup
+
+This project uses [uv](https://github.com/astral-sh/uv). Ensure that you have uv
+installed.
+
+Run:
+
+`uv venv`
+
+`.venv/Scripts/activate`
+
+`uv pip install .`
+
+`uv run -m app.cli.main`
+
 GDG Mentorship Technical Project Spring 2025
