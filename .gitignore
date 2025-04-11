@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 *.pyd
 *.pdb
+.python-version
 
 # Virtual environment (if not in .venv folder)
 .venv/
