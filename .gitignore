@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / debug Python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environment (if not in .venv folder)
+.venv/
+
+# VS Code & JetBrains IDE settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and cache
+*.log
+*.sqlite3
+*.db
+*.bak
+.cache/
+*.coverage
+
+# Python test / coverage / profiling tools
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Notebook stuff (if ever used)
+.ipynb_checkpoints/
+
+# UV-specific (in case anything generated later is unwanted)
+.uv/
