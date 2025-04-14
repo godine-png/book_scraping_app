@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: book-scraping-app
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4>=4.13.3
+Requires-Dist: requests>=2.32.3
+Requires-Dist: spacy>=3.8.5
+Dynamic: license-file
+
+# Book Scraping App
+
+This application which takes in user input for a book, then scrapes Goodreads or
+related sites to find common descriptors/ summaries to showcase the types of
+books you read.
+
+The main core uses:
+
+- [beautifulsoup4](https://beautiful-soup-4.readthedocs.io/en/latest/)
+- [requests](https://pypi.org/project/requests/)
+- and [spacy](https://spacy.io/usage/spacy-101)
+to gather and parse the book data.
+
+## Setup
+
+This project uses [uv](https://github.com/astral-sh/uv). Ensure that you have uv
+installed.
+
+Run:
+
+`uv venv`
+
+`.venv/Scripts/activate`
+
+`uv pip install .`
+
+`uv run -m app.cli.main`
+
+GDG Mentorship Technical Project Spring 2025
