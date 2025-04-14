@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+app/__init__.py
+app/api/app.py
+app/cli/main.py
+app/core/extractor.py
+app/core/hello.py
+app/core/models.py
+app/core/scrapper.py
+book_scraping_app.egg-info/PKG-INFO
+book_scraping_app.egg-info/SOURCES.txt
+book_scraping_app.egg-info/dependency_links.txt
+book_scraping_app.egg-info/requires.txt
+book_scraping_app.egg-info/top_level.txt
