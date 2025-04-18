@@ -38,3 +38,4 @@ coverage.xml
 
 # UV-specific (in case anything generated later is unwanted)
 .uv/
+.qodo
