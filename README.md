@@ -8,7 +8,7 @@ The main core uses:
 
 - [beautifulsoup4](https://beautiful-soup-4.readthedocs.io/en/latest/)
 - [requests](https://pypi.org/project/requests/)
-- and [spacy](https://spacy.io/usage/spacy-101)
+- [spacy](https://spacy.io/usage/spacy-101)
 to gather and parse the book data.
 
 ## Setup

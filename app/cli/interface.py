@@ -11,6 +11,13 @@ def welcome():
     options()
 
 def options():
+    #Shows main menu
     print("1. Search a book by title")
-    print("2. Show info")
-    print("3. Exit")
+    print("2. Exit")
+
+def bookList(cards):
+    # Shows list of books
+    i = 1
+    for book in cards:
+        print(f"{++i}. {book["title"]}")
+        i+=1
